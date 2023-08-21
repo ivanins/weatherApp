@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    width: 300px;
+    transition: border-color 0.3s ease-in-out;
+  
+    /* Efecto al enfocar el input */
+    &:focus {
+      border-color: #3498db;
+    }
+  }
+  
